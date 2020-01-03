@@ -1,7 +1,7 @@
 styles = """
 /*
- * "my love gift"💕 v0.0.1
- * Authored by idealclover
+ * "my love gift"💕
+ * Authored by 思伟
  */
 
 body {
@@ -13,9 +13,8 @@ body {
 /*
  * ...
  * ...hello?
- * 大家好！我是翠翠！idealclover~
- * 情人节快到了，该给女朋友点什么呢~
- * 写一个网页给子枨吧ww送她一颗小心心~
+ * 今天很想我的女朋友，该给她点什么呢~
+ * 写一个网页给君吧ww送她一颗小心心~
  * 可是~要怎么做呢~
  * 首先做一个框框来放我们的代码吧ww
  * 那么~开动啦！！
@@ -137,7 +136,7 @@ pre em:not(.comment) { font-style: normal; }
  */
 
 #heart i::before {
-  content: 'idealclover';
+  content: '思伟';
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -250,18 +249,16 @@ pre em:not(.comment) { font-style: normal; }
 
 /*
  * 诶嘿~~
- * 这样我们的小心心就做好啦~
+ * 这样我的小心心就做好啦~
  * 怎么样~ >v< 还好看吗~~
- * 亲爱哒！情人节快乐！
+ * 亲爱哒！每天都要快乐！
  * 爱你哦！
  *
  */
 
 /*
- * "my love gift" v0.0.1
- * Robot rights protected under BOT License & Apache2 license
- * Inspired by pen#PwLXXP
- * 谨以此网页献给我的女朋友子枨💕
+ * "my love gift"
+ * 谨以此网页献给我的女朋友汪淑君💕
  * 你最可爱ww
  */
 """
@@ -320,8 +317,6 @@ $('body').append """
   <div style = 'position: fixed;left: 30px;bottom: 10px;'>
     <a id='skipAnimation'>跳过动画</a>
     <a style='color: #fff' href='http://love.idealclover.top'>重新播放</a>
-    <a style='color: #fff' target="_blank" href='https://github.com/idealclover/Love-Gift'>项目地址</a>
-    <a style='color: #fff' target="_blank" href='https://www.idealclover.top/'>我的博客</a>
   </div>
 """
 
